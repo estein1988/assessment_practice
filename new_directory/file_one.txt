@@ -1,0 +1,14 @@
+class = Airplane
+
+attributes:
+color (string)
+model (string)
+year_built (integer)
+in_air (boolen)
+engines_on (boolean)
+
+methods
+fly (in_air = true)
+turn_on_engines (engines_on = true)
+change_color (changes the color)
+go_up (current_altitue + 1)
